@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecfaf770460ab1479bb5b0802f88746, type: 3}
+  m_Name: Ricochet Power
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 6450736315312767184, guid: 5e9f5ef493e29094aaa1a39859971cfc,
+    type: 3}
+  statsL: {fileID: 11400000, guid: 3140ced9f899a0b449c1ea4cff9d8766, type: 2}
+  statsR: {fileID: 11400000, guid: 8c711013d6dd79943a9820ee346393db, type: 2}
+  animatorController: {fileID: 9100000, guid: 5ab28d5754cc48941b453e088f784c29, type: 2}
+  pickupOffest: 0.2
+  model: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  material: {fileID: 2100000, guid: fd2adb532720f204fa876865808345f9, type: 2}
+  custom:
+  - {fileID: 2457790064645303529, guid: a07c786d27154f840842f1aafa381a64, type: 3}

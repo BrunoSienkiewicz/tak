@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecfaf770460ab1479bb5b0802f88746, type: 3}
+  m_Name: Sinus
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 3515103294734913051, guid: 0e61803da443e6246aaccc9ab6658350,
+    type: 3}
+  statsL: {fileID: 11400000, guid: b4c651b2fc8882b4cb29316ceb048aa9, type: 2}
+  statsR: {fileID: 11400000, guid: 7f4b40b3a9329244cb57d810f0d49dae, type: 2}
+  animatorController: {fileID: 9100000, guid: 5ab28d5754cc48941b453e088f784c29, type: 2}
+  pickupOffest: 0.5
+  model: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  material: {fileID: 2100000, guid: 76dd1d659fce225459b1cb0bfbad5b1a, type: 2}
+  custom:
+  - {fileID: 4346991354317326649, guid: 364034c410731fb40a71a3e2d9fcd49b, type: 3}
+  - {fileID: 4070567439424168784, guid: b192ce769d5dd0349a6c8e2a0214fd77, type: 3}
