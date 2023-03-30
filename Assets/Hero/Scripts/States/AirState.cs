@@ -40,10 +40,10 @@ class AirState : HeroState
         }
         jumpEnded = !GI.jumpHeld;
         var wallHit = Hero.ME.checkForWalls();
-        /*if (GI.jumpHeld && wallHit.collider!=null && (Hero.ME.durations["wallrun_cooldown"]==null || wallHit.normal!=WallrunState.lastRay.normal))
+        if (GI.jumpHeld && wallHit.collider != null && (Hero.ME.durations["wallrun_cooldown"] == null || wallHit.normal != WallrunState.lastRay.normal))
         {
             Hero.ME.currentState = new WallrunState(wallHit);
-        }*/
+        }
         if (Hero.ME.checkForGround() && Hero.ME.vel.y<=0)
         {
             //Debug.Log("GI");
